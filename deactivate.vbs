@@ -16,7 +16,7 @@ Else
 				objShell.SendKeys "{SCROLLLOCK 2}"
 			Next
 			boolValid = True
-			MsgBox "Forced awake time over. Back to normal routine.", vbOKOnly+vbInformation, "Omar Task is Completed"
+			MsgBox "Forced awake time over. Back to normal routine.", vbOKOnly+vbInformation, "Task is Completed"
 		End If
 	End If
 	On Error Goto 0
